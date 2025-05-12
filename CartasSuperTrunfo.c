@@ -19,8 +19,8 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
         //Nível Novato
-    char estado1 = 'A', codigo1[3] = "1", nome1[20] = "Mato Grosso";
-    char estado2 = 'B', codigo2[3] = "2", nome2[20] = "Mato Grosso do Sul";
+    char estado1 = 'A', codigo1[5] = "A01", nome1[20] = "Mato Grosso";
+    char estado2 = 'B', codigo2[5] = "B02", nome2[20] = "Mato Grosso do Sul";
 
     int popl1 = 1000000, popl2 = 2000000;
     int pontos1 = 100, pontos2 = 200;
@@ -77,6 +77,6 @@ int main() {
     printf(" Densidade populacional: %s\n", (denspopul1 > denspopul2) ? "Carta 1" : "Carta 2");
     printf(" PIB per capita: %s\n", (pibpercpt1 > pibpercpt2) ? "Carta 1" : "Carta 2");
     printf(" Superpoder: %s\n", (superpoder1 > superpoder2) ? "Carta 1" : "Carta 2");
-    
+
     return 0;
 }
